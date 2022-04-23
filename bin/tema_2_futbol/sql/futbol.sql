@@ -1,0 +1,30 @@
+/* Create Tables */
+
+CREATE TABLE Equipos
+(
+	ID_EQUIPO number NOT NULL,
+	NOMBRE varchar2(50) NOT NULL,
+	LOCALIDAD varchar2(100) NOT NULL,
+	PRIMARY KEY (ID_EQUIPO)
+);
+
+
+CREATE TABLE Jugadores
+(
+	ID_JUGADORES number NOT NULL,
+	NOMBRE varchar2(50) NOT NULL,
+	DNI varchar2(9) NOT NULL,
+	EDAD number NOT NULL,
+	POSICION varchar2(50) NOT NULL,
+	ID_EQUIPO number NOT NULL,
+	PRIMARY KEY (ID_JUGADORES)
+);
+
+
+
+/* Create Foreign Keys */
+
+ALTER TABLE Jugadores
+	ADD FOREIGN KEY (ID_EQUIPO)
+	REFERENCES Equipos (ID_EQUIPO)
+;

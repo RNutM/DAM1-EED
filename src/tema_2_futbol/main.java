@@ -1,4 +1,4 @@
-package futbol;
+package tema_2_futbol;
 
 public class main {
 
