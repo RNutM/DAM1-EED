@@ -1,4 +1,4 @@
-package tema_2_futbol;
+package tema_2.futbol;
 
 import java.io.Serializable;
 
