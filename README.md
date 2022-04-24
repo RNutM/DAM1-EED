@@ -3,8 +3,8 @@
 Ejercicios EED DAM1
 Tema 1 - 4 
 
-
 * Abre los archivos PDF (DAM1-EED\docs\*.pdf) para ver la documentación sobre la aplicación.
+* Incorpora más archivos si quieres (DAM1-EED\docs\*.pdf) para ver almacenar archivos que vayamos a usar.
 * PSeInt
 * Eclipse - ERMaster
 
